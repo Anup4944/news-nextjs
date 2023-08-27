@@ -15,27 +15,27 @@ const NavBar = () => {
               Search News
             </Nav.Link>
             <NavDropdown title="Categories" id="categories-dropdown">
-              <NavDropdown.ItemText as={Link} href="/categories/business">
+              <NavDropdown.Item as={Link} href="/categories/business">
                 Business
-              </NavDropdown.ItemText>
-              <NavDropdown.ItemText as={Link} href="/categories/entertainment">
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} href="/categories/entertainment">
                 Entertainment
-              </NavDropdown.ItemText>
-              <NavDropdown.ItemText as={Link} href="/categories/general">
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} href="/categories/general">
                 General
-              </NavDropdown.ItemText>
-              <NavDropdown.ItemText as={Link} href="/categories/health">
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} href="/categories/health">
                 Health
-              </NavDropdown.ItemText>
-              <NavDropdown.ItemText as={Link} href="/categories/science">
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} href="/categories/science">
                 Science
-              </NavDropdown.ItemText>
-              <NavDropdown.ItemText as={Link} href="/categories/sports">
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} href="/categories/sports">
                 Sports
-              </NavDropdown.ItemText>
-              <NavDropdown.ItemText as={Link} href="/categories/technology">
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} href="/categories/technology">
                 Technology
-              </NavDropdown.ItemText>
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
